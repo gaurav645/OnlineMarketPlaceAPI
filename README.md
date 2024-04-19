@@ -1,4 +1,4 @@
-# OnlineMarketPlaceAPI
+# OnlineMarketPlace API
 
 **Software Requirements Specification (SRS)**
 
