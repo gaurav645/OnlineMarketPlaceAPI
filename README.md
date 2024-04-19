@@ -93,7 +93,7 @@ The Online Marketplace API is a backend service that powers an online marketplac
 
 **iii)** **'/products':** GET method to retrieve all products or search products.
 
-**.iv)** **'/products/{product_id}':** GET method to retrieve details of a specific product.
+**iv)** **'/products/{product_id}':** GET method to retrieve details of a specific product.
 
 **v)** **'/cart':** GET method to retrieve the user's shopping cart or POST method to update the cart.
 
