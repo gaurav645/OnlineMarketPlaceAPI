@@ -17,10 +17,10 @@ The Online Marketplace API is a backend service that powers an online marketplac
 
 **ii). Product Management:**
 
-**.** Sellers can add new products to sell by providing product details (name, description, price, category, quantity).
-**.** Sellers can update existing product information or remove products from the platform.
+**.**  Sellers can add new products to sell by providing product details (name, description, price, category, quantity).
+**.**  Sellers can update existing product information or remove products from the platform.
 
-**iii).Search and Browse:**
+**iii). Search and Browse:**
 **.** Users can search for products based on various criteria such as name, category, price range, etc.
 **.** Products can be browsed through paginated API endpoints.
 
