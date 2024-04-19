@@ -10,7 +10,7 @@ The Online Marketplace API is a backend service that powers an online marketplac
 **2. Functional Requirements**
 
 **i). User Authentication:**
-**.** Users can register for an account by providing necessary details (username, email, password).
+**.** Users can register for an account by providing the necessary details (username, email, password).
 **.** Registered users can log in securely using their credentials.
 **.** Authentication tokens (JWT) are issued upon successful login for subsequent API access.
 
@@ -111,12 +111,14 @@ The Online Marketplace API is a backend service that powers an online marketplac
 
 **ii) Authentication:** User passwords are hashed and stored securely. JWT tokens are used for session management.
 
-**iii) Concurrency:**  FastAPI supports asynchronous programming, allowing for concurrent requests handling.
+**iii) Concurrency:**  FastAPI supports asynchronous programming, allowing for concurrent request handling.
 
 **iv) Deployment:** The application can be deployed on a web server using ASGI (Asynchronous Server Gateway Interface).
    
 
 
+
+**This project aims to build a robust backend API for an online marketplace platform, allowing users to perform various actions such as product management, shopping, and order processing. The use of FastAPI and SQLAlchemy ensures efficient development and scalability of the system.**
 
 
 
