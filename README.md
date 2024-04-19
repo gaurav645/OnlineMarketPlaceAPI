@@ -54,6 +54,35 @@ The Online Marketplace API is a backend service that powers an online marketplac
 
 **Software Design Document (SDD)**
 
+**1. System Architecture**
+
+**The system follows a three-tier architecture:**
+
+**i) Presentation Layer:** Implemented using FastAPI to provide RESTful API endpoints.
+**ii) Application Layer:** Contains business logic for user authentication, product management, shopping cart, order management, and user reviews.
+**iii) Data Access Layer:** Utilizes: SQLAlchemy for interacting with the relational database (e.g., PostgreSQL, MySQL).
+
+
+**2. Database Schema**
+**.** The database schema includes tables for users, products, orders, and reviews.
+**. Relationships:**
+**.** Users can have multiple orders and reviews.
+**.** Products can be associated with multiple orders and reviews.
+
+**3. API Design**
+
+**.** The API endpoints are designed to follow RESTful principles using FastAPI:
+**.** **'/register':** POST method for user registration.
+**.**  **'/login':** POST method for user login.
+**.** **'/products':** GET method to retrieve all products or search products.
+**.** **'/products/{product_id}':** GET method to retrieve details of a specific product.
+**.****'/cart':** GET method to retrieve the user's shopping cart or POST method to update the cart.
+**.****'/orders':** POST method to place an order.
+**.****'/orders/{order_id}':** GET method to retrieve order details.
+**.****'/reviews:'** POST method to leave a review for a product.
+**.****'/reviews/{product_id}':** GET method to retrieve reviews for a specific product.
+   
+
 
 
 
