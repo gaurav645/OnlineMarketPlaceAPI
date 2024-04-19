@@ -54,6 +54,8 @@ The Online Marketplace API is a backend service that powers an online marketplac
 
 **Software Design Document (SDD)**
 
+
+
 **1. System Architecture**
 
 **The system follows a three-tier architecture:**
@@ -81,15 +83,15 @@ The Online Marketplace API is a backend service that powers an online marketplac
 
 **.iv)** **'/products/{product_id}':** GET method to retrieve details of a specific product.
 
-**v)****'/cart':** GET method to retrieve the user's shopping cart or POST method to update the cart.
+**v)** **'/cart':** GET method to retrieve the user's shopping cart or POST method to update the cart.
 
-**vi)****'/orders':** POST method to place an order.
+**vi)** **'/orders':** POST method to place an order.
 
-**vii)****'/orders/{order_id}':** GET method to retrieve order details.
+**vii)** **'/orders/{order_id}':** GET method to retrieve order details.
 
-**viii)****'/reviews:'** POST method to leave a review for a product.
+**viii)** **'/reviews:'** POST method to leave a review for a product.
 
-**ix)****'/reviews/{product_id}':** GET method to retrieve reviews for a specific product.
+**ix)** **'/reviews/{product_id}':** GET method to retrieve reviews for a specific product.
 
 **4. Implementation Details**
 
