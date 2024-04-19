@@ -44,7 +44,7 @@ The Online Marketplace API is a backend service that powers an online marketplac
 **3. Non-Functional Requirements**
 
 **i) Performance:**
-**.** The system should handle a large number of concurrent users and requests efficiently.
+**.** The system should handle  large number of concurrent users and requests efficiently.
 
 **.** Response times should be optimized to provide a seamless user experience.
 
