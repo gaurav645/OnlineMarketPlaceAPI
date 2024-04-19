@@ -9,32 +9,53 @@ The Online Marketplace API is a backend service that powers an online marketplac
 
 **2. Functional Requirements**
 
-**1. User Authentication:**
+**i). User Authentication:**
 **.** Users can register for an account by providing necessary details (username, email, password).
 **.** Registered users can log in securely using their credentials.
 **.** Authentication tokens (JWT) are issued upon successful login for subsequent API access.
 
 
-**2. Product Management:**
+**ii). Product Management:**
 
 **.** Sellers can add new products to sell by providing product details (name, description, price, category, quantity).
 **.** Sellers can update existing product information or remove products from the platform.
 
-**3.Search and Browse:**
+**iii).Search and Browse:**
 **.** Users can search for products based on various criteria such as name, category, price range, etc.
 **.** Products can be browsed through paginated API endpoints.
 
-**4.Shopping Cart:**
+**iv).Shopping Cart:**
 **.** Users can add products to their shopping cart, update quantities, and remove items.
 **.** The shopping cart persists across sessions for authenticated users.
 
-**5. Order Management:**
+**v). Order Management:**
 **.** Users can place orders for products in their shopping cart.
 **.** Sellers can view and manage orders for their products, including order status updates and order fulfillment.
 
-**6. User Reviews:**
+**vi). User Reviews:**
 **.** Users can leave reviews and ratings for products they have purchased.
 **.** Reviews are displayed along with product information.
+
+**3. Non-Functional Requirements**
+
+**i) Performance:**
+**.** The system should handle a large number of concurrent users and requests efficiently.
+**.** Response times should be optimized to provide a seamless user experience.
+
+**ii) Security:**
+**.** User authentication and authorization should be implemented securely to prevent unauthorized access.
+**.** Input validation and sanitation should be enforced to prevent injection attacks and other security vulnerabilities.
+
+**iii) Scalability:**
+**.** The system should be designed to scale horizontally to accommodate increased traffic and data volume.
+**.** Load balancing and caching mechanisms should be implemented for performance and scalability.
+
+
+
+**Software Design Document (SDD)**
+
+
+
 
 
 
